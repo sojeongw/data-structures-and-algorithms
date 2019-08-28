@@ -1,4 +1,4 @@
-package stepbystep.ifstatement;
+package stepbystep.ifStatement;
 
 import java.util.Scanner;
 
