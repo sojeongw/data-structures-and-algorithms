@@ -1,7 +1,7 @@
-# Algorithms Self-Study
+# Algorithm Self-Study
 
-## Baekjoon Online Judge
+### Baekjoon Online Judge
 <https://www.acmicpc.net/>
 
-## Programmers
+### Programmers
 <https://programmers.co.kr/>
