@@ -1,6 +1,6 @@
 import java.util.*;
-class Solution {
-    public String Runners(String[] participant, String[] completion) {
+class Runners {
+    public String Solution(String[] participant, String[] completion) {
         String answer = "";
         Arrays.sort(participant);
         Arrays.sort(completion);
@@ -15,3 +15,4 @@ class Solution {
         return participant[i];
     }
 }
+
