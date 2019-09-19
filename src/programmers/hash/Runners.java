@@ -1,3 +1,5 @@
+package programmers.hash;
+
 import java.util.*;
 class Runners {
     public String Solution(String[] participant, String[] completion) {
@@ -13,6 +15,10 @@ class Runners {
             }   
         }
         return participant[i];
+    }
+
+    public static void main(String[] args) {
+
     }
 }
 

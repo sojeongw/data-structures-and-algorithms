@@ -1,7 +1,9 @@
+package programmers.hash;
+
 import java.util.*;
 
 class Runners2 {
-    public String solution(String participant, String[] completion){
+    public String solution(String[] participant, String[] completion){
         Map<String, Integer> hash = new HashMap<>();
 
         /* getOrDefault(Object key, V defaultValue)
@@ -15,5 +17,10 @@ class Runners2 {
         // participant와 같으면 결국 value는 0이 된다.
         for(String arg:completion) hash.put(arg, hash.get(arg)-1);
 
+        return null;
         }
+
+    public static void main(String[] args) {
+
+    }
 }
