@@ -8,20 +8,35 @@ public class PhoneNumber {
         boolean answer = true;
         String[] phone_book = {"119", "97674223", "1195524421"};
 
-        Map<String, Integer> hash = new HashMap<>();
+        PhoneNumber pn = new PhoneNumber();
+        answer = pn.solution(phone_book);
 
-        for(String arg : phone_book){
-            hash.put(arg, 1);
+        System.out.println(answer);
+    }
+
+    public boolean solution(String[] phone_book) {
+        boolean answer = true;
+
+        Map<Integer, String> hash = new HashMap<>();
+
+        int i = 1;
+        for (String arg : phone_book) {
+            hash.put(i, arg);
+            i++;
         }
 
-        for(int i=0; i<phone_book.length; i++){
-            for(String arg : phone_book){
-                hash.put(phone_book[i],hash.get(arg)-1);
-                System.out.println(hash);
+        for (String arg : phone_book) {
+            int count = 0;
+            for (String val : hash.values()) {
+                if (val.startsWith(arg)) {
+                    count++;
+                }
+            }
+            if (count >= 2) {
+                return false;
             }
         }
-
-
-
+        return answer;
     }
 }
+

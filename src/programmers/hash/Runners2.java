@@ -4,13 +4,18 @@ import java.util.*;
 
 class Runners2 {
     public static void main(String[] args) {
+        String answer = "";
+
         String[] participant = {"mislav", "stanko", "mislav", "ana"};
         String[] completion = {"stanko", "ana", "mislav"};
 
-        solution(participant, completion);
+        Runners r = new Runners();
+        answer = r.Solution(participant, completion);
+
+        System.out.println(answer);
 
     }
-    public static String solution(String[] participant, String[] completion){
+    public String solution(String[] participant, String[] completion){
         String answer = "";
         Map<String, Integer> hash = new HashMap<>();
 
