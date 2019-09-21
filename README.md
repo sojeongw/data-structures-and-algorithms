@@ -1,4 +1,4 @@
-# Algorithm Self-Study
+# algorithm self-study
 
 ### Baekjoon Online Judge
 <https://www.acmicpc.net/>
