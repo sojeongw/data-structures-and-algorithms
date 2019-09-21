@@ -21,12 +21,12 @@ public class Network {
         return answer;
     }
 
-    public void dfs(int[][] computers, int idx, int n){
-        for(int i=0; i<n; i++){
-            if(computers[idx][i] == 1 && !link[idx][i]){
-                link[idx][i] = link[i][idx] = true;
+    public void dfs(int[][] computers, int i, int n){
+        for(int j=0; j<n; j++){
+            if(computers[i][j] == 1 && !link[i][j]){
+                link[i][j] = link[j][i] = true;
 
-                dfs(computers, i, n);
+                dfs(computers, j, n);
             }
         }
     }
