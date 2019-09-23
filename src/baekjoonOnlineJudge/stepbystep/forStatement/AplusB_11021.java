@@ -1,4 +1,4 @@
-package baekjoonOnlineJudge.stepbystep.forStatement;
+package BaekjoonOnlineJudge.StepByStep.ForStatement;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

@@ -1,7 +1,4 @@
-package programmers.hash;
-
-import java.util.HashMap;
-import java.util.Map;
+package Programmers.Hash;
 
 public class PhoneNumber2 {
 

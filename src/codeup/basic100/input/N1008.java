@@ -1,4 +1,4 @@
-package codeup.basic100.input;
+package CodeUp.Basic100.Input;
 
 public class N1008 {
     public static void main(String[] args) {

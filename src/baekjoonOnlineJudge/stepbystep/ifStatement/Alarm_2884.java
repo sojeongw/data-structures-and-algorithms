@@ -1,4 +1,4 @@
-package baekjoonOnlineJudge.stepbystep.ifStatement;
+package BaekjoonOnlineJudge.StepByStep.IfStatement;
 
 import java.util.Scanner;
 
