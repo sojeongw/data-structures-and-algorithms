@@ -1,4 +1,4 @@
-package codeup.basic100.input_output;
+package CodeUp.Basic100.InputOutput;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

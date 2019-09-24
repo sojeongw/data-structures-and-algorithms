@@ -1,4 +1,4 @@
-package codeup.basic100.Conversion;
+package CodeUp.Basic100.Conversion;
 
 import java.io.IOException;
 import java.util.Scanner;

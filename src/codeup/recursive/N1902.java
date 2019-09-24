@@ -1,4 +1,4 @@
-package codeup.recursive;
+package CodeUp.Recursive;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

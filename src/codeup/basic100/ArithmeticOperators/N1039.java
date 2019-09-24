@@ -1,4 +1,4 @@
-package codeup.basic100.ArithmeticOperators;
+package CodeUp.Basic100.ArithmeticOperators;
 
 import java.util.Scanner;
 

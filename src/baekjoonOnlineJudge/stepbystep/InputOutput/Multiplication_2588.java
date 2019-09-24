@@ -1,4 +1,4 @@
-package BaekjoonOnlineJudge.StepByStep.Input_Output;
+package BaekjoonOnlineJudge.StepByStep.InputOutput;
 
 import java.util.Scanner;
 

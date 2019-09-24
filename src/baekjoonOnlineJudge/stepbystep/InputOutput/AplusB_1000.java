@@ -1,4 +1,4 @@
-package BaekjoonOnlineJudge.StepByStep.Input_Output;
+package BaekjoonOnlineJudge.StepByStep.InputOutput;
 
 import java.io.BufferedReader;
 import java.io.IOException;

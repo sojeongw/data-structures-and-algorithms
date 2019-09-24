@@ -1,4 +1,4 @@
-package programmers.stack_queue;
+package Programmers.StackQueue;
 
 public class Printer {
     public static void main(String[] args) {

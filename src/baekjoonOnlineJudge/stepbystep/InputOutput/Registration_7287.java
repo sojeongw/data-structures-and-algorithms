@@ -1,4 +1,4 @@
-package BaekjoonOnlineJudge.StepByStep.Input_Output;
+package BaekjoonOnlineJudge.StepByStep.InputOutput;
 
 public class Registration_7287 {
 	public static void main(String[] args) {

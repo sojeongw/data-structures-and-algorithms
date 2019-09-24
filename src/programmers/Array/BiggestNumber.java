@@ -1,7 +1,6 @@
-package programmers.array;
+package Programmers.Array;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class BiggestNumber {
     public static void main(String[] args) {
