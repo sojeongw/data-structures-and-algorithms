@@ -1,4 +1,4 @@
-package baekjoonOnlineJudge.stepbystep.input_output;
+package BaekjoonOnlineJudge.StepByStep.Input_Output;
 
 public class HelloWorld_2557 {
 	public static void main(String args[]){
