@@ -62,7 +62,7 @@ public class HeapElement {
     }
 
     /**
-     * @param otherHeapElement
+     * @param otherHeapElement 다른 element 객체를 받는다.
      * @return true key와 info가 동일하면 true를 리턴한다.
      */
     public boolean equals(HeapElement otherHeapElement) {
