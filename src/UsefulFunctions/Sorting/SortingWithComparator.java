@@ -8,11 +8,10 @@ public class SortingWithComparator {
 
         /* 기본 정렬 외의 다른 기준을 세우고 싶다면 Comparator를 구현한다. -> 주로 익명클래스를 활용함. */
         Actor[] arr = new Actor[] {
-                new Actor("헤더 로클리어", 1961, "Heather Deen Locklear"),
-                new Actor("데미 무어", 1962, "Demetria Gene Guynes"),
-                new Actor("안젤라 바셋", 1958, "Angela Bassett"),
-                new Actor("신디 크로퍼드", 1966, "Cintia Ann Crawford"),
-                new Actor("캐서린 제타 존스", 1969, "Catherine Jones")
+                new Actor("박보검", 1993),
+                new Actor("유승호", 1991),
+                new Actor("차은우", 1996),
+                new Actor("서강준", 1994)
         };
 
         Arrays.sort(arr, new Comparator<Actor>(){
@@ -30,17 +29,15 @@ public class SortingWithComparator {
     static class Actor{
         String name;
         int birthYear;
-        String engName;
 
         // Constructor
-        public Actor(String name, int birthYear, String engName) {
+        public Actor(String name, int birthYear) {
             this.name = name;
             this.birthYear = birthYear;
-            this.engName = engName;
         }
 
         public String toString() {
-            return name + "(" + engName + ") " + birthYear + "년생";
+            return name + " " + birthYear + "년생";
         }
     }
 

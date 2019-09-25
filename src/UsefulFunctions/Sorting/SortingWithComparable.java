@@ -1,18 +1,16 @@
 package UsefulFunctions.Sorting;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class SortingWithComparable {
     public static void main(String[] args) {
 
         /* Arrays.sort()에서 스트링이 아니라 객체를 정렬하고 싶다면 Comparable을 overriding 한다. */
         Actor[] arr = new Actor[] {
-                new Actor("헤더 로클리어", 1961, "Heather Deen Locklear"),
-                new Actor("데미 무어", 1962, "Demetria Gene Guynes"),
-                new Actor("안젤라 바셋", 1958, "Angela Bassett"),
-                new Actor("신디 크로퍼드", 1966, "Cintia Ann Crawford"),
-                new Actor("캐서린 제타 존스", 1969, "Catherine Jones")
+                new Actor("박보검", 1993),
+                new Actor("유승호", 1991),
+                new Actor("차은우", 1996),
+                new Actor("서강준", 1994)
         };
 
         /* 기본 정렬: Actor 클래스에 overriding 한 Actor.name 순 */
@@ -25,17 +23,15 @@ public class SortingWithComparable {
     static class Actor implements Comparable<Object>{
         String name;
         int birthYear;
-        String engName;
 
         // Constructor
-        public Actor(String name, int birthYear, String engName) {
+        public Actor(String name, int birthYear) {
             this.name = name;
             this.birthYear = birthYear;
-            this.engName = engName;
         }
 
         public String toString() {
-            return name + "(" + engName + ") " + birthYear + "년생";
+            return name + " " + birthYear + "년생";
         }
 
         // Comparable 인터페이스의 compareTo를 overriding

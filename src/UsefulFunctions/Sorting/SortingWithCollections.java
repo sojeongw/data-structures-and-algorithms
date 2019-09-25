@@ -16,6 +16,10 @@ public class SortingWithCollections {
 
         System.out.println("기본 정렬: " + list);   // [z, a, A, c]
 
+        /* 대소문자 구분해서 정렬 */
+        Collections.sort(list);
+        System.out.println(list);       // [A, a, c, z]
+
         /* 대소문자 구분 없이 알파벳 순 정렬 */
         Collections.sort(list, String.CASE_INSENSITIVE_ORDER);
         System.out.println("알파벳 순 정렬: " + list);    // [a, A, c, z]
