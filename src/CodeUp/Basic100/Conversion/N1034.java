@@ -1,13 +1,14 @@
-package CodeUp.Basic100.datatype;
+package CodeUp.Basic100.DataType;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class N1028 {
+public class N1034 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int a = Integer.parseUnsignedInt(br.readLine());    // -2147483648
-        System.out.println(Integer.toUnsignedString(a));    // 2147483648
+        // 입력 자체를 다른 진법으로 받을 때는 valueOF()
+        int a = Integer.valueOf(br.readLine(),8);
+        System.out.format("%d", a);
     }
 }

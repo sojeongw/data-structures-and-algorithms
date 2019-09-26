@@ -1,4 +1,4 @@
-package CodeUp.Basic100.datatype;
+package CodeUp.Basic100.DataType;
 
 import java.io.IOException;
 import java.util.Scanner;
