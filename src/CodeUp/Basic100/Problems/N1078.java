@@ -1,4 +1,4 @@
-package CodeUp.Basic100;
+package CodeUp.Basic100.Problems;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
