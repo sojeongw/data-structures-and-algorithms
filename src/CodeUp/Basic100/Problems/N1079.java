@@ -11,7 +11,7 @@ public class N1079 {
 
         do{
             input = br.readLine();
-        }while(input.equals("q"));
+        }while(!input.equals("q"));
 
     }
 }
