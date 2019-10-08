@@ -9,6 +9,7 @@ public class N1084 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String input = br.readLine();
         String[] arr= input.split(" ");
+
         int r = Integer.parseInt(arr[0]);
         int g = Integer.parseInt(arr[1]);
         int b = Integer.parseInt(arr[2]);
@@ -23,5 +24,6 @@ public class N1084 {
             }
         }
         System.out.println(count);
+        br.close();
     }
 }
