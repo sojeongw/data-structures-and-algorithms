@@ -10,6 +10,9 @@ public class N1091 {
         int d = sc.nextInt();
         int n = sc.nextInt();
 
-//        System.out.println(a*(m+1)*(n-1));
+        for(int i=1; i<=n; i++){
+            a = a*m + d;
+        }
+        System.out.println(a);
     }
 }
