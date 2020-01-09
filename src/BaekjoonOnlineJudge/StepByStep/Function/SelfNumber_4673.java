@@ -11,11 +11,12 @@ public class SelfNumber_4673 {
         }
     }
     private static int getDn(int n){
-        int dn = n;
-        while(n>0){
-            dn += n%10;
-            n /= 10;
+        int result = 0;
+
+        if(n<100){
+            result = n + n/10 + n%10;
         }
+
         return dn;
     }
 }
