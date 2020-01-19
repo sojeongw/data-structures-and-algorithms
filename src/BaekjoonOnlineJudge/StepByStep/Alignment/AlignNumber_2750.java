@@ -1,4 +1,4 @@
-package BaekjoonOnlineJudge.StepByStep.alignment;
+package BaekjoonOnlineJudge.StepByStep.Alignment;
 
 import java.io.*;
 import java.util.Arrays;
