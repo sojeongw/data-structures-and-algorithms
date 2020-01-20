@@ -4,8 +4,7 @@ import java.io.*;
 
 public class AlignNumber_2750_2 {
     public static void main(String[] args) throws IOException {
-        // 삽입 정렬로 푼 방식
-        // Arrays.sort()는 84ms였는데 삽입 정렬은 96ms
+        // 삽입 정렬 96ms
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
