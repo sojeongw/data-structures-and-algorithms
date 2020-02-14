@@ -17,7 +17,7 @@ public class AlignNumber_2750_2 {
         }
         br.close();
 
-        sort(arr);
+        insertionSort(arr);
 
         for(int a : arr){
             bw.write(a + "\n");
@@ -25,7 +25,7 @@ public class AlignNumber_2750_2 {
         bw.close();
     }
 
-    static void sort(int[] arr){
+    static void insertionSort(int[] arr){
         int temp = 0;
         int j = 0;
 

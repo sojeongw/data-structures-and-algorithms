@@ -17,7 +17,7 @@ public class AlignNumber_2750_3 {
         }
         br.close();
 
-        sort(arr);
+        bubbleSort(arr);
 
         for(int a : arr){
             bw.write(a + "\n");
@@ -25,7 +25,7 @@ public class AlignNumber_2750_3 {
         bw.close();
     }
 
-    static void sort(int[] arr){
+    static void bubbleSort(int[] arr){
         int temp = 0;
 
         for(int i=arr.length-1; i>0; i--){
