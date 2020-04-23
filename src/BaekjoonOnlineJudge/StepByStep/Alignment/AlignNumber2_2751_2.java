@@ -3,7 +3,7 @@ package BaekjoonOnlineJudge.StepByStep.Alignment;
 import java.io.*;
 import java.util.Arrays;
 
-public class AlignNumber2751 {
+public class AlignNumber2_2751_2 {
     // 병합 정렬
     static int[] result;
 
