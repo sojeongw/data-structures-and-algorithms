@@ -8,7 +8,7 @@ count = 0
 nums.sort(reverse=True)
 
 for i in range(m):
-    if count == 3:
+    if count == k:
         result += nums[1]
         count = 0
     else:
