@@ -1,4 +1,4 @@
-package programmers.Stack_Queue;
+package programmers.stackqueue;
 
 import java.util.Collections;
 import java.util.PriorityQueue;

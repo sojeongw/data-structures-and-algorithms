@@ -1,4 +1,4 @@
-package programmers.DFS_BFS;
+package programmers.dfsbfs;
 
 public class Network {
     static boolean[][] link;

@@ -1,4 +1,4 @@
-package programmers.DFS_BFS;
+package programmers.dfsbfs;
 
 public class WordConverter {
     public static void main(String[] args) {

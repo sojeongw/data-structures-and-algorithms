@@ -1,4 +1,4 @@
-package programmers.Hash;
+package programmers.hash;
 
 public class PhoneNumber2 {
 

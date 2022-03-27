@@ -1,4 +1,4 @@
-package programmers.DFS_BFS;
+package programmers.dfsbfs;
 
 public class TargetNumber {
     static int ANSWER = 0;

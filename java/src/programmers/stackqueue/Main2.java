@@ -1,4 +1,4 @@
-package programmers.Stack_Queue;///*
+package programmers.stackqueue;///*
 //package Programmers.StackQueue;
 //import java.io.*;
 //import java.util.*;
