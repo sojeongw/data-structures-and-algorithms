@@ -1,4 +1,4 @@
-package codeup.basic100.datatype;
+package codeup.basic100.conversion;
 
 import java.io.BufferedReader;
         import java.io.IOException;
