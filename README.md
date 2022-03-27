@@ -1,12 +1,12 @@
-# Algorithm Self-Study
+# Data Structures & Algorithms
 
 ### Baekjoon Online Judge
 <https://www.acmicpc.net/>
 
-### Programmers
+### programmers
 <https://programmers.co.kr/>
 
-### CodeUp
+### codeup
 <https://codeup.kr/>
 
 ### The Algorithms in Java
