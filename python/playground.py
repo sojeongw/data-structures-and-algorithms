@@ -1,3 +1,8 @@
-array = [('홍길동', 95), ('이순신', 77)]
+s = "chopper is not a tanuki"
+k = 5
 
-print(sorted(array, key=lambda student: student[1]))
+s = s.split()
+print(s)
+result = ' '.join(s[:k])
+
+print(result)
