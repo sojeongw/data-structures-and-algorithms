@@ -7,6 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class N42579 {
 
@@ -29,7 +30,7 @@ public class N42579 {
             }
 
             Set<String> keys = genreCountMap.keySet();
-            List<String> orderedGenres = keys.stream().sorted(Comparator.comparingInt(genreCountMap::get).reversed()).toList();
+            List<String> orderedGenres = keys.stream().sorted(Comparator.comparingInt(genreCountMap::get).reversed()).collect(Collectors.toList());
 
             List<Integer> answer = new ArrayList<>();
             for (String orderedGenre : orderedGenres) {
