@@ -9,7 +9,7 @@ import java.util.List;
 public class N42586 {
 
     public static void main(String[] args) {
-        int[] solution = Solution.solution(new int[]{95, 90, 99, 99, 80, 99}, new int[]{1, 1, 1, 1, 1, 1});
+        int[] solution = Solution.solution(new int[]{93, 30, 55}, new int[]{1, 30, 5});
         System.out.println("solution = " + Arrays.toString(solution));
     }
 
@@ -20,13 +20,19 @@ public class N42586 {
 
             for (int i = 0; i < progresses.length; i++) {
                 int remain = 100 - progresses[i];
-                if (remain % speeds[i] != 0) {
-                    queue.add(remain / speeds[i] + 1);
-                } else {
-                    queue.add(remain / speeds[i]);
-                }
+                queue.offer((int) Math.ceil((double) remain / speeds[i]));
             }
 
+            while (!queue.isEmpty()) {
+                int count = 1;
+                int prev = queue.poll();
+
+                while (!queue.isEmpty() && queue.peek() <= prev) {
+                    queue.poll();
+                    count++;
+                }
+                answer.add(count);
+            }
 
             return answer.stream().mapToInt(value -> value).toArray();
         }
