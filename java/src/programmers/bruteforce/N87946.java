@@ -31,7 +31,6 @@ public class N87946 {
                     visited[i] = false;
                 }
             }
-
             maxCount = Math.max(maxCount, count);
         }
     }
